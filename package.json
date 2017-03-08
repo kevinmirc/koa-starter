@@ -1,0 +1,24 @@
+{
+  "name": "spreadleauge-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Kevin Mircovich",
+  "license": "",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.7",
+    "koa-bodyparser": "^4.1.0",
+    "koa-rest-router": "^1.0.1",
+    "mongoose": "^4.8.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "foreman": "^2.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
